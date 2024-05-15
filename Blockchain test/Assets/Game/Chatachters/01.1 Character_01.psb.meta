@@ -461,8 +461,8 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 783
-      height: 470
+      width: 546
+      height: 455
     spriteID: ca8a80b55c8ca9345a447e5d933dfa9a
     spriteBone:
     - name: head

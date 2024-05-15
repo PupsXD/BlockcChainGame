@@ -17,7 +17,10 @@ public class AttackScript : MonoBehaviour
         if (value.started)
         {
             _animator.SetTrigger("attack");
-            
+        }
+        else if (value.canceled)
+        {
+            _animator.ResetTrigger("attack");
         }
     }
 }
