@@ -625,7 +625,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2829637913097436918}
-  m_LocalRotation: {x: 0, y: 0, z: 0.012106687, w: 0.99992675}
+  m_LocalRotation: {x: 0, y: 0, z: 0.14040859, w: 0.9900937}
   m_LocalPosition: {x: 1.329396, y: 0.000000055410382, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
@@ -734,7 +734,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3877601015327593640}
-  m_LocalRotation: {x: 0, y: 0, z: 0.97137636, w: 0.23754588}
+  m_LocalRotation: {x: 0, y: 0, z: 0.95643, w: -0.29196158}
   m_LocalPosition: {x: 1.759879, y: 0.27292517, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1260,7 +1260,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7304654103516435020}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1437,7 +1437,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7549589312970077862}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000023283062, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.550415, w: 0.83489126}
   m_LocalPosition: {x: 0, y: 2.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1851,7 +1851,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7549589314356503650}
-  m_LocalRotation: {x: 0, y: 0, z: -0.0011861057, w: 0.9999993}
+  m_LocalRotation: {x: 0, y: 0, z: -0.08311188, w: 0.99654025}
   m_LocalPosition: {x: 1.03, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2093,7 +2093,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7549589314843460416}
-  m_LocalRotation: {x: -0, y: -0, z: -0.000014427114, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6169783, w: 0.7869802}
   m_LocalPosition: {x: 1.32, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2484,8 +2484,8 @@ MonoBehaviour:
   - {fileID: 9135021103916102031}
   - {fileID: 8745092987905392604}
   m_Bounds:
-    m_Center: {x: -0.0012502074, y: 0.0015904903, z: 0}
-    m_Extent: {x: 0.76015353, y: 1.3084068, z: 0}
+    m_Center: {x: 1.6480827, y: 0.13213658, z: 0}
+    m_Extent: {x: 1.1026515, y: 1.089494, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
