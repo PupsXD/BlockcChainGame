@@ -16,11 +16,13 @@ public class PlayerMovement : MonoBehaviour
    private Animator _animator;
 
    private bool _flipped = false;
+
+   [SerializeField] private Transform mainTransform;
    
    private void Awake()
    {
       _rb = GetComponent<Rigidbody2D>();
-      _animator = GetComponent<Animator>();
+      _animator = GetComponentInChildren<Animator>();
    }
 
 
@@ -41,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
       {
          _flipped = false;
       }
-      transform.localScale = new Vector3(_flipped ? -1 : 1, 1, 1);
+      mainTransform.localScale = new Vector3(_flipped ? -1 : 1, 1, 1);
    }
 
    private void Move()

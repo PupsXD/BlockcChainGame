@@ -9,7 +9,7 @@ public class AttackScript : MonoBehaviour
     
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
+        _animator = GetComponentInChildren<Animator>();
     }   
 
     public void OnAttack(InputAction.CallbackContext value)
