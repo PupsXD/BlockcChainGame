@@ -17,14 +17,14 @@ public class Health : MonoBehaviour
         _healthBar = GetComponent<HealthBar>();
     }
 
-    public void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            TakeDamage(10);
-            
-        }
-    }
+    // public void Update()
+    // {
+    //     if (Input.GetMouseButtonDown(0))
+    //     {
+    //         TakeDamage(10);
+    //         
+    //     }
+    // }
 
     public void TakeDamage(int damage)
     {
