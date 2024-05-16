@@ -1,13 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using FishNet.Object;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class Health : NetworkBehaviour
 {
     private int _maxHealth = 100;
     
-    private int _currentHealth;
+    public int _currentHealth;
     
     private HealthBar _healthBar;
 
@@ -26,9 +27,22 @@ public class Health : MonoBehaviour
     //     }
     // }
 
-    public void TakeDamage(int damage)
+    public void UpdateHealth(int health)
     {
-        _currentHealth -= damage;
+        _currentHealth = health;
+        _healthBar.UpdateHealthBar(_currentHealth, _maxHealth);
+        ObserversUpdateHealth(_currentHealth);
+        if (_currentHealth <= 0)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+
+    [ObserversRpc]
+    private void ObserversUpdateHealth(int health)
+    {
+        _currentHealth = health;
         _healthBar.UpdateHealthBar(_currentHealth, _maxHealth);
         if (_currentHealth <= 0)
         {
