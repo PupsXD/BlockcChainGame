@@ -39,7 +39,7 @@ public class Health : NetworkBehaviour
     }
 
 
-    [ObserversRpc]
+    [ObserversRpc (BufferLast = true)]
     private void ObserversUpdateHealth(int health)
     {
         _currentHealth = health;
